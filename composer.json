@@ -1,0 +1,21 @@
+{
+    "name": "phpfalcon/laravel-clear-orders-by",
+    "description": "Clear orders by in Laravel query builder",
+    "keywords": ["laravel", "builder", "clear", "orderby", "orders"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bader Almutairi",
+            "email": "b@bder.email"
+        }
+    ],
+    "require": {
+        "illuminate/database": "5.*",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bader\\ClearOrdersBy\\": "src/"
+        }
+    }
+}
