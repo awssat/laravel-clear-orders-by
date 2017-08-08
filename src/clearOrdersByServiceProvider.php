@@ -1,12 +1,13 @@
 <?php
 
-namespace Bader\ClearOrdersBy\Providers;
+namespace Bader\ClearOrdersBy;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\ServiceProvider;
 
 class clearOrdersByServiceProvider extends ServiceProvider
 {
+
     /**
      * Add a ->clearOrdersBy() to query builder
      */
@@ -18,3 +19,4 @@ class clearOrdersByServiceProvider extends ServiceProvider
             return $this;
         });
     }
+}
