@@ -1,6 +1,6 @@
 <?php
 
-namespace Bader\ClearOrdersBy;
+namespace Bader\ClearOrdersBy\Providers;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\ServiceProvider;
