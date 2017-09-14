@@ -1,12 +1,12 @@
 { 
-    "name": "phpfalcon/laravel-clear-orders-by",
+    "name": "if4lcon/laravel-clear-orders-by",
     "description": "Clear orders by in Laravel query builder",
     "keywords": ["laravel", "builder", "clear", "orderby", "orders"],
     "license": "MIT",
     "authors": [
         {
             "name": "Bader Almutairi",
-            "email": "b@bder.email"
+            "email": "bderemail@gmail.com"
         }
     ],
     "require": {
