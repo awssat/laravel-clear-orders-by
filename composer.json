@@ -17,5 +17,12 @@
         "psr-4": {
             "Bader\\ClearOrdersBy\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bader\\ClearOrdersBy\\clearOrdersByServiceProvider"
+            ]
+        }
     }
 }
