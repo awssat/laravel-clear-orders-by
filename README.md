@@ -33,7 +33,7 @@ auth()->user()->notifications()
 
 ## Installation
 
-`composer require phpfalcon/laravel-clear-orders-by`
+`composer require if4lcon/laravel-clear-orders-by`
 
 Then add this line `Bader\ClearOrdersBy\clearOrdersByServiceProvider::class` to service providers in `config/app.php`.
 
