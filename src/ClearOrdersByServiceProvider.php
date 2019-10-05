@@ -5,7 +5,7 @@ namespace Bader\ClearOrdersBy;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\ServiceProvider;
 
-class clearOrdersByServiceProvider extends ServiceProvider
+class ClearOrdersByServiceProvider extends ServiceProvider
 {
 
     /**
