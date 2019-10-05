@@ -35,7 +35,7 @@ auth()->user()->notifications()
 
 `composer require if4lcon/laravel-clear-orders-by`
 
-Then add this line `Bader\ClearOrdersBy\clearOrdersByServiceProvider::class` to service providers in `config/app.php`.
+Then add this line `Bader\ClearOrdersBy\ClearOrdersByServiceProvider::class` to service providers in `config/app.php`.
 
 ## License
 
