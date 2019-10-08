@@ -13,6 +13,9 @@
         "illuminate/database": "5.*",
         "illuminate/support": "5.*"
     },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
     "autoload": {
         "psr-4": {
             "Bader\\ClearOrdersBy\\": "src/"
@@ -21,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bader\\ClearOrdersBy\\clearOrdersByServiceProvider"
+                "Bader\\ClearOrdersBy\\ClearOrdersByServiceProvider"
             ]
         }
     }
